@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.item-container {
+  padding: 0;
+  list-style-type: none;
+  margin: 10px;
+  border: 1px solid #8e8e8e;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 100%;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+.avatar-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.topic {
+  color: #8e8e8e;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+
+.author {
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 40%;
+    margin-right: 20px;
+  }
+  .item-container {
+    display: flex;
+    flex-direction: row;
+  }
+}

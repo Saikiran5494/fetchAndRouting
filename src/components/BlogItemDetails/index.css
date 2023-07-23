@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+.details-container {
+  margin: 20px;
+}
+.title {
+  text-align: center;
+}
+.avatar-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.avatar-container {
+  display: flex;
+}
+.author {
+  font-weight: bold;
+}
+.image-detail {
+  border-radius: 10px;
+  width: 100%;
+}
